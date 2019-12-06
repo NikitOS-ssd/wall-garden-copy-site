@@ -1,13 +1,3 @@
-// АВТОМАТИЧЕСКОЕ ПОДСТРАИВАНИЕ ШАПКИ САЙТА ПОД РАЗМЕР ЭКРАНА
-// setInterval(function() {
-//   var height = document.documentElement.clientHeight;
-//   var headerBlock = document.querySelector('header');
-//   headerBlock.style.height = height + 'px';
-//   var glavHeaderContainer = document.querySelector('.glav-header-container');
-//   glavHeaderContainer.style.height = height + 'px';
-// }, 1);
-
-
 // ПОКАЗ МЕНЮ ПРИ СКРОЛЛЕ
 window.onscroll = showMenu;
 function showMenu() {
@@ -81,10 +71,12 @@ function fun1() {
   var animoParam = animoBlock.getBoundingClientRect();
   var windowHeight = window.innerHeight;
   var show = document.querySelector('.show');
-  console.log(windowHeight / 100 * 3);
 
-  show.innerHTML = windowHeight;
-  show.innerHTML += '<br>' + animoParam.bottom;
+
+  //Отладочные переменные
+  //console.log(windowHeight / 100 * 3); // Вывод в логи
+  //show.innerHTML = windowHeight; // Высота окна
+  //show.innerHTML += '<br>' + animoParam.bottom; // Вывод нижней границы animo2
 
   var animoDivs = document.querySelectorAll('.animo-2 > div');
 
