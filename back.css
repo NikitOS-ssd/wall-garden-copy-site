@@ -100,7 +100,7 @@ body {
 .animo-2 {
   width: 100%;
   overflow: hidden;
-  height: 60vh;
+  height: 80vh;
   background: rgba(255, 160, 122);
   perspective: 1000px;
 }
@@ -116,21 +116,21 @@ body {
 
 .phone {
   width: 280px;
-  height: 380px;
+  height: 65%;
   background: #fff;
   left: 5%;
   z-index: 4;
 }
 .tablet {
   width: 360px;
-  height: 480px;
+  height: 79%;
   background: #fff;
   left: 10%;
   z-index: 3;
 }
 .desctop {
   width: 530px;
-  height: 580px;
+  height: 93%;
   background: #fff;
   left: 15%;
   z-index: 2;
